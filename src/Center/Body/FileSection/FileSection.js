@@ -11,8 +11,6 @@ export default function FileSection({ selectedFolder }) {
     <div className={classes.fileSection}>
       <FolderHeadingAndActionsSection file={true} />
       <SelectedFolderAndAddFileBtn selectedFolder={selectedFolder} />
-
-      {/* <PopupModalForm /> */}
       <FilePropertiesPanel />
       <FileListPanel selectedFolder={selectedFolder} />
     </div>
