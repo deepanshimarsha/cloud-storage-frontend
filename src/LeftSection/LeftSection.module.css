@@ -1,0 +1,11 @@
+.leftMain{
+    position: relative;
+    background: transparent url('../assets/images/Group\ 3827.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    width: 275px;
+    height: 735px;
+    box-sizing: border-box;
+}
+

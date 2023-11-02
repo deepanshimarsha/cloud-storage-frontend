@@ -1,0 +1,86 @@
+.rightMain{
+    position: absolute;
+    top: 0px;
+    left: 1240px;
+    width: 278px;
+    height: 735px;
+    background: transparent url('../assets/images/Group\ 4611.png') 0% 0% no-repeat padding-box;
+    opacity: 0.75;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    top: 15px;
+    right: 0px;
+    width: 106px;
+    height: 21px;
+    position: relative;
+    text-align: left;
+    font: normal normal 600 15px/21px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.sizeIcon{
+    top: 16px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background: transparent url('../assets/images/sizeIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.subHeading{
+    top: 20px;
+    left: 0px;
+    width: 111px;
+    height: 15px;
+    position: relative;
+    text-align: left;
+    font: normal normal 200 11px/15px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 11px;
+}
+
+.linkList{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.moreLinks{
+    display: flex;
+    gap: 12px;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.arrowIcon{
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    background: #00767B 0% 0% no-repeat padding-box;
+    border: 0.4000000059604645px solid #E9EDF2;
+    opacity: 1;
+    cursor: pointer;
+    width: 15px;
+    height: 7px;
+}
+
+.viewMoreBtn{
+    cursor: pointer;
+    text-align: left;
+    font: normal normal normal 11px/15px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}

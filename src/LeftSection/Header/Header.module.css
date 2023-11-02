@@ -1,0 +1,111 @@
+.headerMain{
+    display: flex;
+   flex-direction: column;
+}
+
+.headerRow1{
+    display: flex;
+    height: 70px;
+    width: 275px;
+
+}
+
+.headerRow2{
+    display: flex;
+    height: 100px;
+    width: 275px;
+}
+.bearishLogo{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+}
+.companyImageRectangle{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E9EDF2;
+    border-radius: 5px;
+    opacity: 1;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.companyName{
+    position: relative;
+    top: 25px;
+    left: 50px;
+    width: 107px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 15px/21px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.arrowIcon{
+    top: 28px;
+    left: 70px;
+    width: 7px;
+    height: 15px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    position: relative;
+    background: #00767B 0% 0% no-repeat padding-box;
+    border: 0.4000000059604645px solid #E9EDF2;
+    opacity: 1;
+}
+
+.createBtn{
+    top: 25px;
+    left: 20px;
+    width: 125px;
+    height: 35px;
+    position: relative;
+    background: #A53A01 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 6px #00767B29;
+    border: 1px solid #E9EDF2;
+    border-radius: 5px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.plugIcon{
+    position: relative;
+    top: 39px;
+    left: 110px;
+    width: 10px;
+    height: 10px;
+    transform: matrix(0.73, 0.68, -0.68, 0.73, 0, 0);
+    
+    border: 1px solid #000000;
+    opacity: 1;
+}
+
+.text{
+    top: 5px;
+    left: 20px;
+    width: 76px;
+    height: 21px;
+    position: relative;
+    text-align: left;
+    font: normal normal 300 15px/21px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.editIcon{
+    top: 5px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background: transparent url('../../assets/images/Light\ 1px-edit@2x.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

@@ -1,0 +1,19 @@
+.folderListPanel{
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin-top: 10px;
+    display: flex;
+    width: 895px;
+    justify-content: space-between;
+}
+
+.folderList{
+    display: flex;
+    gap: 20px;
+   
+}

@@ -1,0 +1,30 @@
+.filePropertiesPanel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    width: 950px;
+}
+
+.property{
+    width: 70px;
+    height: 15px;
+    
+    text-align: left;
+    font: normal normal 600 11px/15px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.settingIcon{
+  
+    width: 20px;
+    height: 20px;
+/* UI Properties */
+    background: transparent url('../../../../assets/images/Light\ 1px-settings.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

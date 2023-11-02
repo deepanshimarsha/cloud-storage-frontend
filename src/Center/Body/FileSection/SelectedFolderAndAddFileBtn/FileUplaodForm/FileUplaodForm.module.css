@@ -1,0 +1,32 @@
+.addIcon{
+ 
+    height: 15px;
+    background: transparent url('../../../../../assets/images/addIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fileForm{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modalPopup{
+    width: 500px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.folderFileDisplayedName{
+    width: 100px;
+    
+    /* UI Properties */
+    padding-left: 10px;
+    text-align: left;
+    font: normal normal 500 15px/18px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}

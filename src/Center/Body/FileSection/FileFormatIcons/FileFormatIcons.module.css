@@ -1,0 +1,57 @@
+.formatIconContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.formatIcon1{
+ 
+    width: 20px;
+    height: 20px;
+    background: transparent url('../../../../assets/images/xlsIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.formatIcon2{
+ 
+    width: 20px;
+    height: 20px;
+    background: transparent url('../../../../assets/images/docFileIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.formatIcon3{
+ 
+    width: 20px;
+    height: 20px;
+    background: transparent url('../../../../assets/images/pptFileIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.formatIcon4{
+ 
+    width: 20px;
+    height: 20px;
+    background: transparent url('../../../../assets/images/pdfFileIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.formatIcon5{
+ 
+    width: 20px;
+    height: 20px;
+    background: transparent url('../../../../assets/images/mp4FileIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.formatIcon6{
+ 
+    width: 20px;
+    height: 20px;
+    background: transparent url('../../../../assets/images/mp3FileIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.formatIcon7{
+ 
+    width: 20px;
+    height: 20px;
+    background: transparent url('../../../../assets/images/pngFileIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+

@@ -1,0 +1,38 @@
+.actionPanel{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.categoryAction{
+    
+    width: 20px;
+    height: 20px;
+
+    background: transparent url('../../../../../assets/images/categoryIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.listAction{
+    
+    width: 20px;
+    height: 20px;
+
+    background: transparent url('../../../../../assets/images/listIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.showFoldersLink{
+    
+    width: 92px;
+    height: 17px;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 13px/17px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000AFF;
+    opacity: 1;
+}

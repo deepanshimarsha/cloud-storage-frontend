@@ -1,0 +1,20 @@
+.folderFileDisplayedName{
+    width: 100px;
+    height: 20px;
+    /* UI Properties */
+    padding-left: 10px;
+    text-align: left;
+    font: normal normal 500 12px/18px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.addIcon{
+    width: 15px;
+    height: 15px;
+    /* UI Properties */
+    background: transparent url('../../../../assets/images/addIcon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+}

@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    
+    flex-direction: column;
+    height: 200px;
+    width: 275px;
+}
+.headingContainer{
+    display: flex;
+    height: 30px;
+   
+    max-width: 275px;
+    
+}
+.heading{
+    top: 5px;
+    left: 20px;
+    width: 94px;
+    height: 21px;
+    position: relative;
+    text-align: left;
+    font: normal normal 600 15px/21px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    
+}
+
+.smLine{
+    top: 15px;
+    left: 30px;
+    width: 140px;
+    height: 0px;
+    position: relative;
+    background: transparent url('../../assets/images/Line 512.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #E9EDF2;
+    opacity: 1;
+}
+
+.brandLogo {
+    top: 0px;
+    left: 20px;
+    
+    position: relative;
+}
+.optionsList{
+    padding-top: 20px;
+    
+}
+.option{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.option img{
+    height: 25px;
+}
+.optionContent{
+    bottom: 8px;
+    left: 30px;
+    width: 63px;
+    height: 17px;
+    position: relative;
+    text-align: left;
+    font: normal normal 300 13px/17px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.settingIcon{
+    top: 0px;
+    right: 10px;
+    width: 25px;
+    height: 5px;
+    position: relative;
+    opacity: 1;
+}
+
+.moreOptions{
+    display: flex;
+    padding-top: 20px;
+}
+.dropdownIcon{
+    top: 2px;
+    left: 35px;
+    width: 15px;
+    height: 7px;
+    position: relative;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    background: #00767B 0% 0% no-repeat padding-box;
+    border: 0.4000000059604645px solid #E9EDF2;
+    opacity: 1;
+}
+.text{
+    top: 0px;
+    left: 55px;
+    width: 53px;
+    height: 15px;
+    position: relative;
+    text-align: left;
+    font: normal normal normal 11px/15px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.footer{
+    display: flex;
+    padding-top: 30px;
+}

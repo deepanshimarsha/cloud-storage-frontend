@@ -1,0 +1,31 @@
+.folderSideHaedingContainer{
+    display: flex;
+    gap: 10px;
+}
+.folderIcon{
+  
+    width: 25px;
+    height: 25px;
+
+   
+}
+
+.folderSideHaeding{
+    
+    width: 61px;
+    height: 25px;
+
+    text-align: left;
+    font: normal normal 600 18px/25px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+
+.fileSectionSideHeading{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

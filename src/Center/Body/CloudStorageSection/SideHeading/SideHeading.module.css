@@ -1,0 +1,14 @@
+.CloudStorageSectionHeading{
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    height: 21px;
+    text-align: left;
+    font: normal normal 600 15px/21px Source Serif Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+}

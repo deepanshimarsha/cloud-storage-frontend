@@ -1,0 +1,10 @@
+.divisionLine{
+    top: 0px;
+    left: 275px;
+    width: 0px;
+    height: 735px;
+    position: absolute;
+    background: transparent url('../assets/images/divisionLine.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #E9EDF2;
+    opacity: 1;
+}

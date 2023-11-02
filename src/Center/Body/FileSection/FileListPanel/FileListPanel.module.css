@@ -1,0 +1,8 @@
+.fileListPanel{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    opacity: 1;
+    
+}
