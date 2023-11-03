@@ -14,7 +14,6 @@ const initialState = {
   folders: [],
   files: [],
   loading: false,
-  error: null,
 };
 const folderReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -23,7 +22,6 @@ const folderReducer = (state = initialState, action) => {
         ...state,
         folders: action.payload,
         loading: false,
-        error: null,
       };
 
     case GET_FOLDER_LOADING:
@@ -32,18 +30,10 @@ const folderReducer = (state = initialState, action) => {
         loading: true,
       };
 
-    case GET_FOLDER_FAILURE:
-      return {
-        ...state,
-        loading: false,
-        error: "Error fetching folders",
-      };
     case CREATE_FOLDER_SUCCESS:
       return {
         ...state,
-        folders: [...state.folders, action.payload]
-          .slice()
-          .sort((a, b) => a.createdAt - b.createdAt),
+        folders: [...state.folders, action.payload],
       };
 
     case RENAME_FOLDER_SUCCESS:
